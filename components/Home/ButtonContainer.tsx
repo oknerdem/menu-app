@@ -14,12 +14,12 @@ const ButtonContainer = ({
   return (
     <div className={styles.btnContainer}>
       {Categories.map((category, index) => {
+        const categoryL = category.toLowerCase();
         return (
           <button
             type="button"
             className={`text-[#c59d5f] font-medium px-3 py-1 rounded hover:bg-[#c59d5f] hover:text-white duration-300 ${
-              selectedCategory === category.toLowerCase() &&
-              'bg-[#c59d5f] text-white'
+              selectedCategory === categoryL && 'bg-[#c59d5f] text-white'
             }`}
             key={index}
             onClick={categoryHandler}
