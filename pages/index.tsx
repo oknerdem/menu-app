@@ -13,8 +13,8 @@ export default function Home() {
     parent.current && autoAnimate(parent.current);
   }, []);
 
-  const categoryHandler = (event: any) => {
-    const category = event.target.innerText.toLowerCase();
+  const categoryHandler = (e: any) => {
+    const category = e.target.innerText.toLowerCase();
     setSelectedCategory(category);
   };
 
