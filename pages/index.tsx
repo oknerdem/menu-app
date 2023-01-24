@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState, useRef, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -12,7 +13,7 @@ const Foods = [
     title: 'Buttermilk Pancakes',
     category: 'breakfast',
     price: 15.99,
-    img: './public/images/item-1.jpeg',
+    img: './images/item-1.jpeg',
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {
@@ -125,9 +126,10 @@ export default function Home() {
             if (selectedCategory === 'all' || selectedCategory === category) {
               return (
                 <article key={id} className={styles.menuItem}>
-                  <Image
-                    src={`/${img}`}
+                  <img
+                    src={img}
                     alt={title}
+                    title={title}
                     width={240}
                     height={200}
                     className={styles.photo}
