@@ -1,3 +1,3 @@
 ## Menu App 🍕
 
-🧃 Next.js & TailwindCSS & FormKit/AutoAnimate 🍟
+Next.js & TailwindCSS & FormKit/AutoAnimate
