@@ -87,12 +87,12 @@ const FoodContainer = ({ parent, selectedCategory }: any) => {
                 height={200}
                 className={styles.photo}
               />
-              <div className={styles.itemInfo}>
+              <div className={styles.infoFood}>
                 <header className={styles.header}>
                   <h4 className={styles.titleFood}>{title}</h4>
-                  <h4 className={styles.price}>${price}</h4>
+                  <h4 className={styles.priceFood}>${price}</h4>
                 </header>
-                <p className={styles.itemText}>{desc}</p>
+                <p className={styles.descFood}>{desc}</p>
               </div>
             </article>
           );

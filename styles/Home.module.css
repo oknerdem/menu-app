@@ -42,14 +42,14 @@
   @apply dark:text-zinc-200;
 }
 
-.price {
+.priceFood {
   @apply text-[#c59d5f] font-medium;
 }
 
-.itemText {
+.descFood {
   @apply max-w-2xl text-[#617d98] dark:text-slate-400;
 }
 
-.itemInfo {
+.infoFood {
   @apply flex flex-col h-full items-start gap-6 order-2;
 }
