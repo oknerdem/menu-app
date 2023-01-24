@@ -3,18 +3,11 @@
 }
 
 .title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.2rem;
-  font-size: 2.3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+  @apply flex flex-col justify-center items-center gap-1 text-4xl font-bold mb-4;
 }
 
 .underline {
-  @apply bg-[#c59d5f] h-1 w-20;
+  @apply bg-[#c59d5f] h-1 w-20 mt-1.5;
 }
 
 .btnContainer {
@@ -37,18 +30,26 @@
   @apply flex justify-between -mt-4 h-full items-center gap-4 w-full max-w-xl;
 }
 
-.itemInfo {
-  @apply flex flex-col h-full  items-start gap-6;
+.photo {
+  @apply rounded-lg border-4 border-[#c59d5f] object-cover;
 }
 
-.itemText {
-  @apply max-w-2xl text-[#617d98] dark:text-slate-400;
+.header {
+  @apply flex justify-between w-full font-bold border-b border-dotted border-black dark:border-white;
+}
+
+.titleFood {
+  @apply dark:text-zinc-200;
 }
 
 .price {
   @apply text-[#c59d5f] font-medium;
 }
 
-.photo {
-  @apply rounded-lg border-4 border-[#c59d5f] object-cover;
+.itemText {
+  @apply max-w-2xl text-[#617d98] dark:text-slate-400;
+}
+
+.itemInfo {
+  @apply flex flex-col h-full  items-start gap-6;
 }
