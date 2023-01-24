@@ -1,4 +1,4 @@
-Menu App 🧃
+Menu App 🌿
 
 ###### Built with Next.js & TailwindCSS & FormKit / AutoAnimate
 
