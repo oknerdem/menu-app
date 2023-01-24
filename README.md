@@ -2,4 +2,4 @@
 
 Next.js & TailwindCSS & FormKit / AutoAnimate
 
-![ScreenShot](@/public/MenuApp.png)
+![MenuApp Screenshot](./public/MenuApp.png)
