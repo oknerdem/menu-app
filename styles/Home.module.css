@@ -7,7 +7,7 @@
 }
 
 .underline {
-  @apply bg-[#c59d5f] h-1 w-20 mt-1.5;
+  @apply bg-[#c59d5f] h-1 w-12 mt-1.5;
 }
 
 .btnContainer {

@@ -25,7 +25,7 @@ export default function Home() {
       <Header title={title} />
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Our Menu
+          Menu
           <div className={styles.underline} />
         </h1>
         <ButtonContainer
