@@ -23,15 +23,15 @@
 }
 
 .menu {
-  @apply justify-between items-center gap-14 max-w-6xl w-full mx-auto mt-10 pb-10 grid grid-cols-2;
+  @apply justify-between items-center gap-14 xl:max-w-6xl max-w-xl w-full mx-auto mt-10 pb-10 grid xl:grid-cols-2 grid-cols-1 px-6;
 }
 
 .menuItem {
-  @apply flex justify-between -mt-4 h-full items-center gap-4 w-full max-w-xl;
+  @apply flex justify-between -mt-4 h-full items-center gap-4 w-full max-w-xl lg:flex-row flex-col;
 }
 
 .photo {
-  @apply rounded-lg border-4 border-[#c59d5f] object-cover;
+  @apply rounded-lg border-4 border-[#c59d5f] object-cover order-1;
 }
 
 .header {
@@ -51,5 +51,5 @@
 }
 
 .itemInfo {
-  @apply flex flex-col h-full  items-start gap-6;
+  @apply flex flex-col h-full items-start gap-6 order-2;
 }
