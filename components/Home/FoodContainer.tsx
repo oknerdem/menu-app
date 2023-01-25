@@ -18,7 +18,6 @@ const FoodContainer = ({ parent, selectedCategory }: any) => {
                 width={240}
                 height={200}
                 className={styles.photo}
-                unoptimized
               />
               <div className={styles.infoFood}>
                 <header className={styles.header}>
