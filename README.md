@@ -1,4 +1,4 @@
-<sup>🌿</sup> Menu App <sub>🌿</sub>
+##### <sup>🌿</sup> **Menu App** <sub>🌿</sub>
 
 ###### *Built with* Next.js & TailwindCSS & AutoAnimate.
 
