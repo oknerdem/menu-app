@@ -8,6 +8,8 @@ import styles from '@/styles/Home.module.css';
 export default function Home() {
   const title = 'MenuTastic';
   const content = 'MenuTastic is a restaurant menu app';
+  const parent = useRef(null);
+
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   useEffect(() => {
@@ -18,8 +20,6 @@ export default function Home() {
     const category = e.target.innerText.toLowerCase();
     setSelectedCategory(category);
   };
-
-  const parent = useRef(null);
 
   return (
     <>
