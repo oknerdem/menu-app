@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import autoAnimate from '@formkit/auto-animate';
-import Header from '@/components/home/Header';
-import ButtonContainer from '@/components/home/ButtonContainer';
-import FoodContainer from '@/components/home/FoodContainer';
+import Header from '@/components/Header';
+import ButtonContainer from '@/components/ButtonContainer';
+import FoodContainer from '@/components/FoodContainer';
 import styles from '@/styles/Home.module.css';
 
 export default function Home() {
