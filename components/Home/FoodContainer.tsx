@@ -3,7 +3,12 @@ import Image from 'next/image';
 import Foods from '@/data/Foods.json';
 import styles from '@/styles/Home.module.css';
 
-const FoodContainer = ({ parent, selectedCategory }: any) => {
+interface FoodContainerProps {
+  parent: React.RefObject<HTMLDivElement>;
+  selectedCategory: string;
+}
+
+const FoodContainer = ({ parent, selectedCategory }: FoodContainerProps) => {
   return (
     <section className={styles.menu} ref={parent}>
       {Foods.map(foodItem => {
